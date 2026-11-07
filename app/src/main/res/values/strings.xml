@@ -1,0 +1,194 @@
+<resources>
+    <string name="app_name">Dev</string>
+    <string name="developer_name">Abdo Ahmed Ali</string>
+    <string name="developer_name_ar">عبده أحمد علي</string>
+    <string name="developed_by">تم تطويره بواسطة Abdo Ahmed Ali (عبده أحمد علي)</string>
+    <string name="app_tagline">مساعدك الذكي الشامل والفخم</string>
+    <string name="powered_by_gemini">يعمل بنماذج Gemini المتطورة</string>
+    <string name="version_label">الإصدار 1.0.0</string>
+
+    <!-- Navigation Tabs -->
+    <string name="tab_chat">المحادثة</string>
+    <string name="tab_studio">الصور</string>
+    <string name="tab_tools">الأدوات</string>
+    <string name="tab_history">السجل</string>
+    <string name="tab_settings">الإعدادات</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">مساعد ذكي يفهمك بذكاء</string>
+    <string name="onboarding_desc_1">تحاور بسلاسة مع Dev باللغة العربية والإنجليزية، واحصل على إجابات فورية ودقيقة ومفصلة.</string>
+    <string name="onboarding_title_2">استوديو صور وأدوات خارقة</string>
+    <string name="onboarding_desc_2">توليد صور بجودة فائقة، ترجمة، فحص أكواد، استخراج نصوص وميزات إنتاجية متقدمة.</string>
+    <string name="onboarding_title_3">خصوصية تامة وتحكم كامل</string>
+    <string name="onboarding_desc_3">بياناتك ومحادثاتك محفوظة محلياً على جهازك، مع ذاكرة ذكية قابلة للتخصيص والحذف.</string>
+    <string name="onboarding_next">التالي</string>
+    <string name="onboarding_skip">تخطي</string>
+    <string name="onboarding_start">ابدأ الآن</string>
+    <string name="user_name_prompt">ما هو اسمك؟</string>
+    <string name="user_name_placeholder">أدخل اسمك أو لقبك المفضّل</string>
+
+    <!-- Permissions Dialog -->
+    <string name="permissions_title">صلاحيات التجربة الكاملة</string>
+    <string name="permissions_desc">يمكنك استخدام التطبيق بالكامل حتى في حال رفض أي صلاحية. الصلاحيات تمنحك ميزات إضافية فقط:</string>
+    <string name="perm_mic">الميكروفون للإملاء الصوتي والترجمة الفورية</string>
+    <string name="perm_camera">الكاميرا لمسح المستندات وقراءة الصور</string>
+    <string name="perm_notification">الإشعارات لتنبيهات المهام والتذكيرات</string>
+    <string name="grant_permissions">منح الصلاحيات</string>
+    <string name="continue_anyway">متابعة الآن</string>
+
+    <!-- Chat Screen -->
+    <string name="new_chat">محادثة جديدة</string>
+    <string name="search_conversations">ابحث في المحادثات…</string>
+    <string name="chat_input_placeholder">اسأل Dev أي شيء…</string>
+    <string name="stop_generating">إيقاف التوليد</string>
+    <string name="thinking_indicator">Dev يفكّر…</string>
+    <string name="copy">نسخ</string>
+    <string name="copied_to_clipboard">تم النسخ إلى الحافظة</string>
+    <string name="share">مشاركة</string>
+    <string name="listen">استماع</string>
+    <string name="stop_listening">إيقاف الصوت</string>
+    <string name="regenerate">إعادة التوليد</string>
+    <string name="edit_message">تعديل الرسالة</string>
+    <string name="favorite">المفضلة</string>
+    <string name="unfavorite">إزالة من المفضلة</string>
+    <string name="pin_chat">تثبيت</string>
+    <string name="unpin_chat">إلغاء التثبيت</string>
+    <string name="rename_chat">إعادة التسمية</string>
+    <string name="delete_chat">حذف المحادثة</string>
+    <string name="export_chat">تصدير المحادثة</string>
+    <string name="export_pdf">تصدير كـ PDF</string>
+    <string name="export_txt">تصدير كـ TXT</string>
+    <string name="export_markdown">تصدير كـ Markdown</string>
+    <string name="export_csv">تصدير كـ CSV</string>
+    <string name="response_short">ردود قصيرة</string>
+    <string name="response_detailed">ردود مفصّلة</string>
+    <string name="search_grounding_toggle">بحث مباشر في الإنترنت</string>
+    <string name="sources_label">المصادر والمراجع:</string>
+    <string name="code_copy">نسخ الكود</string>
+    <string name="code_explain">شرح الكود</string>
+    <string name="attach_image">صورة من المعرض</string>
+    <string name="take_photo">التقاط صورة</string>
+    <string name="attach_document">مستند أو ملف</string>
+    <string name="clear_attachment">إزالة المرفق</string>
+    <string name="voice_input">إملاء صوتي</string>
+
+    <!-- Empty Chat Suggestions -->
+    <string name="welcome_to_dev">أهلاً بك، أنا Dev ✨</string>
+    <string name="welcome_subtitle">كيف يمكنني مساعدتك اليوم؟ اختر اقتراحاً أو اكتب ما تشاء:</string>
+    <string name="sug_code">اكتب تطبيق أندرويد لـ…</string>
+    <string name="sug_write">صِغ لي إيميل رسمي احترافي</string>
+    <string name="sug_explain">اشرح نظرية الكم بأسلوب بسيط</string>
+    <string name="sug_translate">ترجم هذا النص للإنجليزية مع البدائل</string>
+    <string name="sug_plan">ضع جدولاً دراسياً لمدة أسبوعين</string>
+
+    <!-- Studio (Image Generation) -->
+    <string name="studio_title">استوديو الصور الذكي</string>
+    <string name="prompt_input_placeholder">اكتب وصف الصورة بالعربية أو الإنجليزية…</string>
+    <string name="enhance_prompt">تحسين الوصف بـ Gemini ✨</string>
+    <string name="enhanced_prompt_label">الوصف المحسّن:</string>
+    <string name="generate_image_button">توليد الصورة الآن</string>
+    <string name="style_realistic">واقعي (Photorealistic)</string>
+    <string name="style_cinematic">سينمائي (Cinematic)</string>
+    <string name="style_3d">ثلاثي الأبعاد (3D Render)</string>
+    <string name="style_anime">أنمي وفنون يابانية (Anime)</string>
+    <string name="style_oil">رسم زيتي فني (Oil Painting)</string>
+    <string name="style_logo">شعار وهوية (Minimal Logo)</string>
+    <string name="style_poster">ملصق إعلاني (Poster Art)</string>
+    <string name="style_product">تصوير منتجات (Product Shot)</string>
+    <string name="aspect_ratio">النسبة:</string>
+    <string name="saved_gallery">معرض الصور المولّدة</string>
+    <string name="save_to_gallery">حفظ بالمعرض</string>
+    <string name="saved_success">تم الحفظ بنجاح!</string>
+    <string name="no_images_yet">لم تقم بتوليد أي صور بعد. اكتب وصفاً وابدأ!</string>
+
+    <!-- Tools Tab -->
+    <string name="tools_title">أدوات Dev الذكية</string>
+    <string name="tool_translator">المترجم الفوري</string>
+    <string name="tool_translator_desc">ترجمة دقيقة مع السياق والبدائل واللفظ الصوتي</string>
+    <string name="tool_ocr">محلل الصور والوثائق (OCR)</string>
+    <string name="tool_ocr_desc">استخراج النصوص وشرحها وتحليل الرسوم والبيانات</string>
+    <string name="tool_summarizer">ملخّص الملفات والروابط</string>
+    <string name="tool_summarizer_desc">تلخيص المقالات، الكتب، وصفحات الويب بنقاط رئيسية</string>
+    <string name="tool_writer">مساعد الكتابة والتعديل</string>
+    <string name="tool_writer_desc">إعادة صياغة، تدقيق لغوي، وضبط النبرة (رسمية، ودية…)</string>
+    <string name="tool_code">مساعد البرمجة وإصلاح الكود</string>
+    <string name="tool_code_desc">كتابة، تصحيح الأخطاء، وإضافة تعليقات وشروحات برمجية</string>
+    <string name="tool_prompt">صانع البرومبتات الاحترافية</string>
+    <string name="tool_prompt_desc">تحويل أفكارك البسيطة إلى أوامر احترافية فائقة الدقة</string>
+    <string name="tool_tutor">المعلّم الشخصي والاختبارات</string>
+    <string name="tool_tutor_desc">شرح أي مفهوم بالمستوى المناسب وصناعة بطاقات مراجعة</string>
+    <string name="tool_math">الحاسبة الرياضية والخطوات</string>
+    <string name="tool_math_desc">حل المسائل الرياضية والمعادلات خطوة بخطوة</string>
+    <string name="tool_app_builder">منشئ ومطور التطبيقات الذكي (App Builder)</string>
+    <string name="tool_app_builder_desc">اكتب وصف فكرتك لتوليد معمارية التطبيق، الكود، الشاشات، وإرشادات بناء وتنزيل ملف APK</string>
+
+    <!-- Personas -->
+    <string name="persona_selector">الوضع النشط</string>
+    <string name="persona_general">Dev الافتراضي (شامل وفخم)</string>
+    <string name="persona_coder">المبرمج المحترف</string>
+    <string name="persona_translator">المترجم اللغوي</string>
+    <string name="persona_writer">الكاتب الإبداعي</string>
+    <string name="persona_tutor">المعلم الأكاديمي</string>
+    <string name="persona_analyst">محلل البيانات</string>
+    <string name="persona_designer">المصمم وخبير واجهات UI/UX</string>
+    <string name="persona_trainer">المدرب الشخصي واللياقة</string>
+    <string name="persona_career">المستشار المهني</string>
+    <string name="persona_custom">وضع مخصص</string>
+    <string name="create_custom_persona">إنشاء وضع جديد</string>
+
+    <!-- Device Actions -->
+    <string name="device_action_title">تنفيذ أمر على الجهاز</string>
+    <string name="device_action_confirm">هل تود تنفيذ هذا الأمر؟</string>
+    <string name="action_alarm">ضبط منبه</string>
+    <string name="action_timer">تشغيل مؤقت</string>
+    <string name="action_calendar">إضافة حدث للتقويم</string>
+    <string name="action_open_url">فتح رابط في المتصفح</string>
+    <string name="action_send_email">تجهيز إيميل</string>
+    <string name="confirm_button">تأكيد وتنفيذ</string>
+    <string name="cancel_button">إلغاء</string>
+
+    <!-- History Tab -->
+    <string name="history_title">سجل المحادثات</string>
+    <string name="all_conversations">جميع المحادثات</string>
+    <string name="pinned_conversations">المحادثات المثبتة</string>
+    <string name="favorites_only">المفضلة فقط</string>
+    <string name="no_conversations">لا توجد محادثات محفوظة بعد</string>
+    <string name="clear_history">مسح السجل بالكامل</string>
+    <string name="clear_history_confirm">هل أنت متأكد من مسح جميع المحادثات نهائياً؟</string>
+
+    <!-- Settings Tab -->
+    <string name="settings_title">الإعدادات والتفضيلات</string>
+    <string name="setting_model">نموذج الذكاء الاصطناعي</string>
+    <string name="model_flash">Gemini Flash (فائق السرعة)</string>
+    <string name="model_pro">Gemini Pro (تفكير عميق وتفصيل)</string>
+    <string name="setting_theme">المظهر</string>
+    <string name="theme_dark">داكن (Dark Luxe)</string>
+    <string name="theme_light">فاتح (Light Clean)</string>
+    <string name="theme_system">تلقائي حسب النظام</string>
+    <string name="setting_language">لغة التطبيق</string>
+    <string name="lang_ar">العربية (RTL)</string>
+    <string name="lang_en">English (LTR)</string>
+    <string name="setting_font_size">حجم الخط</string>
+    <string name="font_size_normal">افتراضي</string>
+    <string name="font_size_medium">متوسط</string>
+    <string name="font_size_large">كبير</string>
+    <string name="setting_tts_speed">سرعة قراءة الصوت (TTS)</string>
+    <string name="setting_haptic">الاهتزاز والتفاعل اللمسي</string>
+    <string name="setting_memory">الذاكرة طويلة المدى</string>
+    <string name="manage_memory">إدارة الذاكرة المحفوظة</string>
+    <string name="setting_privacy">الخصوصية والأمان</string>
+    <string name="setting_backup">النسخ الاحتياطي والتصدير</string>
+    <string name="about_app">عن تطبيق Dev</string>
+    <string name="about_dialog_title">عن Dev</string>
+    <string name="about_developer_bio">تطبيق Dev هو مساعد ذكي متكامل مصمم بأحدث معايير الأندرويد، تم تطويره بعناية بواسطة المطوّر Abdo Ahmed Ali (عبده أحمد علي)، لتقديم تجربة عربية وعالمية فائقة الجودة مدعومة بنماذج Gemini.</string>
+    <string name="tech_disclosure">يعتمد هذا التطبيق على نماذج Google Gemini الرسمية للذكاء الاصطناعي لتوليد الردود والتحليلات.</string>
+    <string name="privacy_note">جميع محادثاتك وسجلاتك وتفضيلاتك مخزنة محلياً على جهازك ولا تتم مشاركتها.</string>
+
+    <!-- Errors & Network -->
+    <string name="error_no_internet">لا يوجد اتصال بالإنترنت. يرجى التحقق من الشبكة وإعادة المحاولة.</string>
+    <string name="error_api_key_missing">لم يتم ضبط مفتاح Gemini API. يرجى إضافته في إعدادات التطبيق أو ملف .env</string>
+    <string name="error_quota_exceeded">تم تجاوز حد الطلبات مؤقتاً. يرجى الانتظار دقيقة وإعادة المحاولة.</string>
+    <string name="error_general">حدث خطأ غير متوقع. يرجى إعادة المحاولة.</string>
+    <string name="retry_button">إعادة المحاولة</string>
+    <string name="dismiss">إغلاق</string>
+</resources>

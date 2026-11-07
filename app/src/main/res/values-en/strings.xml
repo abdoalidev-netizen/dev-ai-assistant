@@ -1,0 +1,194 @@
+<resources>
+    <string name="app_name">Dev</string>
+    <string name="developer_name">Abdo Ahmed Ali</string>
+    <string name="developer_name_ar">عبده أحمد علي</string>
+    <string name="developed_by">Developed by Abdo Ahmed Ali (عبده أحمد علي)</string>
+    <string name="app_tagline">Your Luxury Comprehensive AI Assistant</string>
+    <string name="powered_by_gemini">Powered by Gemini AI Models</string>
+    <string name="version_label">Version 1.0.0</string>
+
+    <!-- Navigation Tabs -->
+    <string name="tab_chat">Chat</string>
+    <string name="tab_studio">Studio</string>
+    <string name="tab_tools">Tools</string>
+    <string name="tab_history">History</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Intelligent AI Assistant</string>
+    <string name="onboarding_desc_1">Chat naturally with Dev in Arabic and English, receiving detailed, nuanced answers.</string>
+    <string name="onboarding_title_2">Image Studio &amp; Smart Tools</string>
+    <string name="onboarding_desc_2">High-fidelity image generation, live translation, OCR, code assistance, and reasoning tools.</string>
+    <string name="onboarding_title_3">Total Privacy &amp; Local Storage</string>
+    <string name="onboarding_desc_3">All conversations and preferences are securely kept on your device with complete control.</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_start">Get Started</string>
+    <string name="user_name_prompt">What is your name?</string>
+    <string name="user_name_placeholder">Enter your name or preferred nickname</string>
+
+    <!-- Permissions Dialog -->
+    <string name="permissions_title">Optional Permissions</string>
+    <string name="permissions_desc">Dev functions seamlessly without permissions. Granting them unlocks additional features:</string>
+    <string name="perm_mic">Microphone for voice dictation and speech translation</string>
+    <string name="perm_camera">Camera for OCR and image analysis</string>
+    <string name="perm_notification">Notifications for alarms and reminders</string>
+    <string name="grant_permissions">Grant Permissions</string>
+    <string name="continue_anyway">Continue</string>
+
+    <!-- Chat Screen -->
+    <string name="new_chat">New Chat</string>
+    <string name="search_conversations">Search conversations…</string>
+    <string name="chat_input_placeholder">Ask Dev anything…</string>
+    <string name="stop_generating">Stop</string>
+    <string name="thinking_indicator">Dev is thinking…</string>
+    <string name="copy">Copy</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="share">Share</string>
+    <string name="listen">Listen</string>
+    <string name="stop_listening">Stop voice</string>
+    <string name="regenerate">Regenerate</string>
+    <string name="edit_message">Edit message</string>
+    <string name="favorite">Favorite</string>
+    <string name="unfavorite">Unfavorite</string>
+    <string name="pin_chat">Pin</string>
+    <string name="unpin_chat">Unpin</string>
+    <string name="rename_chat">Rename</string>
+    <string name="delete_chat">Delete Chat</string>
+    <string name="export_chat">Export Chat</string>
+    <string name="export_pdf">Export as PDF</string>
+    <string name="export_txt">Export as TXT</string>
+    <string name="export_markdown">Export as Markdown</string>
+    <string name="export_csv">Export as CSV</string>
+    <string name="response_short">Short answers</string>
+    <string name="response_detailed">Detailed answers</string>
+    <string name="search_grounding_toggle">Live Web Search</string>
+    <string name="sources_label">Sources &amp; References:</string>
+    <string name="code_copy">Copy Code</string>
+    <string name="code_explain">Explain Code</string>
+    <string name="attach_image">Image from Gallery</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="attach_document">Document / File</string>
+    <string name="clear_attachment">Remove Attachment</string>
+    <string name="voice_input">Voice Dictation</string>
+
+    <!-- Empty Chat Suggestions -->
+    <string name="welcome_to_dev">Welcome, I am Dev ✨</string>
+    <string name="welcome_subtitle">How can I assist you today? Pick a suggestion or ask directly:</string>
+    <string name="sug_code">Build an Android Compose app for…</string>
+    <string name="sug_write">Draft a professional business email</string>
+    <string name="sug_explain">Explain Quantum Computing simply</string>
+    <string name="sug_translate">Translate this text with cultural context</string>
+    <string name="sug_plan">Create a two-week study plan</string>
+
+    <!-- Studio -->
+    <string name="studio_title">AI Image Studio</string>
+    <string name="prompt_input_placeholder">Describe what you want to see…</string>
+    <string name="enhance_prompt">Enhance Prompt with Gemini ✨</string>
+    <string name="enhanced_prompt_label">Enhanced Prompt:</string>
+    <string name="generate_image_button">Generate Image</string>
+    <string name="style_realistic">Photorealistic</string>
+    <string name="style_cinematic">Cinematic</string>
+    <string name="style_3d">3D Render</string>
+    <string name="style_anime">Anime Style</string>
+    <string name="style_oil">Oil Painting</string>
+    <string name="style_logo">Minimal Logo</string>
+    <string name="style_poster">Poster Art</string>
+    <string name="style_product">Product Shot</string>
+    <string name="aspect_ratio">Aspect Ratio:</string>
+    <string name="saved_gallery">Generated Gallery</string>
+    <string name="save_to_gallery">Save to Device</string>
+    <string name="saved_success">Saved successfully!</string>
+    <string name="no_images_yet">No generated images yet. Describe an image to begin!</string>
+
+    <!-- Tools -->
+    <string name="tools_title">Dev Smart Tools</string>
+    <string name="tool_translator">Instant Translator</string>
+    <string name="tool_translator_desc">Context-aware translation with pronunciation and alternatives</string>
+    <string name="tool_ocr">Image &amp; Document OCR</string>
+    <string name="tool_ocr_desc">Extract and explain text, equations, and tables from photos</string>
+    <string name="tool_summarizer">File &amp; URL Summarizer</string>
+    <string name="tool_summarizer_desc">Condense articles, PDFs, and web pages into bullet points</string>
+    <string name="tool_writer">Writing &amp; Polishing Assistant</string>
+    <string name="tool_writer_desc">Rephrase, proofread, and customize tone (formal, friendly…)</string>
+    <string name="tool_code">Code &amp; Debug Assistant</string>
+    <string name="tool_code_desc">Write, fix bugs, and explain logic across programming languages</string>
+    <string name="tool_prompt">Master Prompt Crafter</string>
+    <string name="tool_prompt_desc">Transform raw thoughts into high-performing prompts</string>
+    <string name="tool_tutor">AI Tutor &amp; Quiz Generator</string>
+    <string name="tool_tutor_desc">Learn any concept at beginner, intermediate, or advanced level</string>
+    <string name="tool_math">Step-by-Step Math Solver</string>
+    <string name="tool_math_desc">Solve equations with clear step-by-step reasoning</string>
+    <string name="tool_app_builder">AI App Builder &amp; Architect</string>
+    <string name="tool_app_builder_desc">Generate full app architecture, UI code, and guidance for building and downloading APK files</string>
+
+    <!-- Personas -->
+    <string name="persona_selector">Active Mode</string>
+    <string name="persona_general">Dev Default (Luxury General)</string>
+    <string name="persona_coder">Software Engineer</string>
+    <string name="persona_translator">Linguist &amp; Translator</string>
+    <string name="persona_writer">Creative Author</string>
+    <string name="persona_tutor">Academic Tutor</string>
+    <string name="persona_analyst">Data Analyst</string>
+    <string name="persona_designer">UI/UX &amp; Creative Designer</string>
+    <string name="persona_trainer">Fitness &amp; Health Coach</string>
+    <string name="persona_career">Career Strategist</string>
+    <string name="persona_custom">Custom Mode</string>
+    <string name="create_custom_persona">Create New Mode</string>
+
+    <!-- Device Actions -->
+    <string name="device_action_title">Execute Device Action</string>
+    <string name="device_action_confirm">Would you like to execute this action?</string>
+    <string name="action_alarm">Set Alarm</string>
+    <string name="action_timer">Start Timer</string>
+    <string name="action_calendar">Add Calendar Event</string>
+    <string name="action_open_url">Open Link</string>
+    <string name="action_send_email">Draft Email</string>
+    <string name="confirm_button">Confirm &amp; Run</string>
+    <string name="cancel_button">Cancel</string>
+
+    <!-- History -->
+    <string name="history_title">Conversation History</string>
+    <string name="all_conversations">All Conversations</string>
+    <string name="pinned_conversations">Pinned</string>
+    <string name="favorites_only">Favorites Only</string>
+    <string name="no_conversations">No saved conversations yet</string>
+    <string name="clear_history">Clear History</string>
+    <string name="clear_history_confirm">Are you sure you want to delete all conversations permanently?</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings &amp; Preferences</string>
+    <string name="setting_model">AI Model</string>
+    <string name="model_flash">Gemini Flash (Ultra Fast)</string>
+    <string name="model_pro">Gemini Pro (Deep Reasoning)</string>
+    <string name="setting_theme">Theme</string>
+    <string name="theme_dark">Dark Luxe</string>
+    <string name="theme_light">Light Clean</string>
+    <string name="theme_system">System Default</string>
+    <string name="setting_language">Language</string>
+    <string name="lang_ar">العربية (RTL)</string>
+    <string name="lang_en">English (LTR)</string>
+    <string name="setting_font_size">Font Size</string>
+    <string name="font_size_normal">Normal</string>
+    <string name="font_size_medium">Medium</string>
+    <string name="font_size_large">Large</string>
+    <string name="setting_tts_speed">TTS Voice Speed</string>
+    <string name="setting_haptic">Haptic Feedback</string>
+    <string name="setting_memory">Long-term Memory</string>
+    <string name="manage_memory">Manage Memory</string>
+    <string name="setting_privacy">Privacy &amp; Security</string>
+    <string name="setting_backup">Backup &amp; Export</string>
+    <string name="about_app">About Dev</string>
+    <string name="about_dialog_title">About Dev</string>
+    <string name="about_developer_bio">Dev is a luxury AI assistant built with modern Android standards, crafted by developer Abdo Ahmed Ali (عبده أحمد علي), delivering premium Arabic and global AI experiences powered by Gemini.</string>
+    <string name="tech_disclosure">This application utilizes official Google Gemini AI models for generation and analysis.</string>
+    <string name="privacy_note">All conversations and personal settings remain locally on your device.</string>
+
+    <!-- Errors -->
+    <string name="error_no_internet">No internet connection available. Please check network and retry.</string>
+    <string name="error_api_key_missing">Gemini API key is not configured. Please supply it via Secrets or .env file.</string>
+    <string name="error_quota_exceeded">API quota limit reached. Please wait a moment and retry.</string>
+    <string name="error_general">An unexpected error occurred. Please try again.</string>
+    <string name="retry_button">Retry</string>
+    <string name="dismiss">Dismiss</string>
+</resources>
